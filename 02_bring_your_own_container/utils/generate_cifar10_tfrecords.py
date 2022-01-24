@@ -24,7 +24,8 @@ import shutil
 import sys
 import tarfile
 
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from IPython.display import display
 from ipywidgets import FloatProgress
 from six.moves import cPickle as pickle
